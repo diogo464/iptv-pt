@@ -1,0 +1,34 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getChannelById, getChannels } from "../../scripts/channels";
+import "video.js/dist/video-js.css";
+import Layout from "../../layouts/Layout.astro";
+
+export const getStaticPaths = (() => {
+    return getChannels().map((channel) => ({
+        params: {
+            channel: channel.id,
+        },
+    }));
+}) satisfies GetStaticPaths;
+
+const { channel } = Astro.params;
+const channelData = getChannelById(channel);
+---
+
+<Layout>
+    <video
+        id="player"
+        class="video-js vjs-default-skin w-full h-full"
+        controls
+        preload="auto"
+    >
+        <source src={channelData.stream} type="application/x-mpegURL" />
+    </video>
+
+    <script>
+        import videojs from "video.js";
+        var player = videojs("player");
+        player.play();
+    </script>
+</Layout>
