@@ -69,6 +69,8 @@ def download_streams() -> list[StreamEntry]:
         if lines[i].startswith("#EXTINF"):
             tvg_id = lines[i].split('tvg-id="')[1].split('"')[0]
             stream = lines[i + 1].strip()
+            if stream.startswith("#"):
+                stream = lines[i + 2].strip()
             entries.append(StreamEntry(id=tvg_id, stream=stream))
 
     return entries
