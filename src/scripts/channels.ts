@@ -5,6 +5,7 @@ export interface Channel {
     name: string;
     logo: string;
     stream: string;
+    headers: any;
 }
 
 export function getChannels(): Channel[] {
@@ -15,6 +16,7 @@ export function getChannels(): Channel[] {
             name: value.name,
             logo: value.logo,
             stream: value.stream,
+            headers: value.headers,
         });
     }
     return channels;

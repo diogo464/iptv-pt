@@ -4,300 +4,431 @@
         "name": "ARTV",
         "country": "PT",
         "logo": "https://i.imgur.com/y00t9hr.png",
-        "stream": "https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8"
+        "stream": "https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RTP1.pt",
         "name": "RTP 1",
         "country": "PT",
         "logo": "https://i.imgur.com/w7GV86i.png",
-        "stream": "https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8"
+        "stream": "https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RTP2.pt",
         "name": "RTP 2",
         "country": "PT",
         "logo": "https://i.imgur.com/T6WUqdn.png",
-        "stream": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8"
+        "stream": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RTP3.pt",
         "name": "RTP 3",
         "country": "PT",
         "logo": "https://i.imgur.com/ohXJmiR.png",
-        "stream": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8"
+        "stream": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RTPAcores.pt",
         "name": "RTP Acores",
         "country": "PT",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RTP_A%C3%A7ores_%282016%29.svg/512px-RTP_A%C3%A7ores_%282016%29.svg.png",
-        "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8"
+        "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RTPAfrica.pt",
         "name": "RTP Africa",
         "country": "PT",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/RTP_%C3%81frica_2016_%28Reduced_Version%29.svg/512px-RTP_%C3%81frica_2016_%28Reduced_Version%29.svg.png",
-        "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8"
+        "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RTPInternacional.pt",
         "name": "RTP Internacional",
         "country": "PT",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png",
-        "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8"
+        "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RTPiAsia.pt",
         "name": "RTPi Asia",
         "country": "PT",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RTP_Internacional_2016_%28Reduced_Version%29.svg/512px-RTP_Internacional_2016_%28Reduced_Version%29.svg.png",
-        "stream": "http://210.210.155.37/qwr9ew/s/s38/index.m3u8"
+        "stream": "http://210.210.155.37/qwr9ew/s/s38/index.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RTPMadeira.pt",
         "name": "RTP Madeira",
         "country": "PT",
         "logo": "https://i.imgur.com/nJNWTqA.png",
-        "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8"
+        "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RTPMemoria.pt",
         "name": "RTP Memoria",
         "country": "PT",
         "logo": "https://i.imgur.com/jCpfdiJ.png",
-        "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8"
+        "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "SIC.pt",
         "name": "SIC",
         "country": "PT",
         "logo": "https://i.imgur.com/SPMqiDG.png",
-        "stream": "https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8"
+        "stream": "https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "SICNoticias.pt",
         "name": "SIC Noticias",
         "country": "PT",
         "logo": "https://i.imgur.com/Gi6Q26M.png",
-        "stream": "https://sicnot.live.impresa.pt/sicnot.m3u8"
+        "stream": "https://sicnot.live.impresa.pt/sicnot.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0",
+            "Referer": "https://sicnoticias.pt/",
+            "Origin": "https://sicnoticias.pt"
+        }
     },
     {
         "id": "SICNovelas.pt",
         "name": "SIC Novelas",
         "country": "PT",
         "logo": "https://i.ibb.co/5hQrgqd/SICNovelas.png",
-        "stream": "https://fast.live.impresa.pt/out/v1/b5be42c4a68d4ee18461a7156bb8ecf2/sic-novelas.m3u8"
+        "stream": "https://fast.live.impresa.pt/out/v1/b5be42c4a68d4ee18461a7156bb8ecf2/sic-novelas.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "TVIAfrica.pt",
         "name": "TVI Africa",
         "country": "PT",
         "logo": "https://i.ibb.co/vBbSHB4/Tvi-africa.png",
-        "stream": "https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8"
+        "stream": "https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "TVIReality.pt",
         "name": "TVI Reality",
         "country": "PT",
         "logo": "https://i.imgur.com/C9rxqA5.png",
-        "stream": "https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8"
+        "stream": "https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "ADBTV.pt",
         "name": "ADB TV",
         "country": "PT",
         "logo": "https://i.ibb.co/HGfTJwt/ADBTV.jpg",
-        "stream": "https://streamer-a03.videos.sapo.pt/live/sobrenaturaltv_3/playlist.m3u8"
+        "stream": "https://streamer-a03.videos.sapo.pt/live/sobrenaturaltv_3/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "Famatv.pt",
         "name": "Famatv",
         "country": "PT",
         "logo": "https://i.ibb.co/tMmRp18/Fama-TV-cor-whitebg-hotizontal.jpg",
-        "stream": "https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/rewind-3600.m3u8"
+        "stream": "https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/rewind-3600.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "iesTV.pt",
         "name": "iesTV",
         "country": "PT",
         "logo": "https://i.imgur.com/zYj5pU5.png",
-        "stream": "https://joaocaiado.com:1443/ies_tv/ngrp:ies_tv_all/playlist.m3u8"
+        "stream": "https://joaocaiado.com:1443/ies_tv/ngrp:ies_tv_all/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "KuriakosMusic.pt",
         "name": "Kuriakos Music",
         "country": "PT",
         "logo": "https://i.imgur.com/Zl40NYi.jpg",
-        "stream": "http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8"
+        "stream": "http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "KuriakosTV.pt",
         "name": "Kuriakos TV",
         "country": "PT",
         "logo": "https://i.imgur.com/xdAW0D5.png",
-        "stream": "https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8"
+        "stream": "https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "ManaChurchOnline.pt",
         "name": "Mana Church Online",
         "country": "PT",
         "logo": "https://i.imgur.com/FRDJSim.png",
-        "stream": "https://w2.manasat.com/church-online/smil:church-online.smil/playlist.m3u8"
+        "stream": "https://w2.manasat.com/church-online/smil:church-online.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "ManaCirkevOnline.pt",
         "name": "Mana Cirkev Online",
         "country": "PT",
         "logo": "https://i.imgur.com/tYhXeRq.png",
-        "stream": "https://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8"
+        "stream": "https://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "ManaEgliseOnline.pt",
         "name": "Mana Eglise Online",
         "country": "PT",
         "logo": "https://i.imgur.com/xQYly8O.png",
-        "stream": "https://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8"
+        "stream": "https://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "ManaIglesiaOnline.pt",
         "name": "Mana Iglesia Online",
         "country": "PT",
         "logo": "https://i.imgur.com/0IUvfcJ.png",
-        "stream": "https://w2.manasat.com/iglesia-online/smil:iglesia-online.smil/playlist.m3u8"
+        "stream": "https://w2.manasat.com/iglesia-online/smil:iglesia-online.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "ManaIgrejaOnline.pt",
         "name": "Mana Igreja Online",
         "country": "PT",
         "logo": "https://i.imgur.com/0IUvfcJ.png",
-        "stream": "https://w1.manasat.com/igrejaonline/smil:igrejaonline.smil/playlist.m3u8"
+        "stream": "https://w1.manasat.com/igrejaonline/smil:igrejaonline.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "ManaTserkovOnlayn.pt",
         "name": "Mana Tserkov' Onlayn",
         "country": "PT",
         "logo": "https://i.imgur.com/PruXLqS.png",
-        "stream": "https://w2.manasat.com/tserkov-online/smil:tserkov-online.smil/playlist.m3u8"
+        "stream": "https://w2.manasat.com/tserkov-online/smil:tserkov-online.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "NPCRadioeTV.pt",
         "name": "NPC Radio e TV",
         "country": "PT",
         "logo": "https://i.imgur.com/mw1lYWE.png",
-        "stream": "https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8"
+        "stream": "https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "ONFM.pt",
         "name": "ON FM",
         "country": "PT",
         "logo": "https://onfmwordpressfiles.ams3.digitaloceanspaces.com/wp-content/uploads/2023/03/17130121/logo-on-fm.png",
-        "stream": "https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8"
+        "stream": "https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "PortoCanal.pt",
         "name": "Porto Canal",
         "country": "PT",
         "logo": "https://i.imgur.com/DwziwMY.png",
-        "stream": "https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist_dvr.m3u8"
+        "stream": "https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist_dvr.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RadioSines.pt",
         "name": "Radio Sines",
         "country": "PT",
         "logo": "https://i.imgur.com/Oe6F1nL.png",
-        "stream": "https://streamer-a01.videos.sapo.pt/live/radiosinesdireto/index.m3u8"
+        "stream": "https://streamer-a01.videos.sapo.pt/live/radiosinesdireto/index.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RecordTVEuropa.pt",
         "name": "RecordTV Europa",
         "country": "PT",
         "logo": "https://i.imgur.com/DvxfBTE.png",
-        "stream": "https://live-recordeuropa.visioncdn.com/live/recordeuropa/master.m3u8"
+        "stream": "https://live-recordeuropa.visioncdn.com/live/recordeuropa/master.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "RFPtv.pt",
         "name": "RFPtv",
         "country": "PT",
         "logo": "https://i.imgur.com/I60nQuR.png",
-        "stream": "https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8"
+        "stream": "https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "TVCancaoNova.pt",
         "name": "TV Cancao Nova",
         "country": "PT",
         "logo": "https://i.imgur.com/rSmwbkj.png",
-        "stream": "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova/playlist.m3u8"
+        "stream": "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "TVFatima.pt",
         "name": "TV Fatima",
         "country": "PT",
         "logo": "https://i.imgur.com/0Nz2GqC.png",
-        "stream": "https://streamer-b02.videos.sapo.pt/live/santuario/playlist.m3u8"
+        "stream": "https://streamer-b02.videos.sapo.pt/live/santuario/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "TVMana1.pt",
         "name": "TV Mana 1",
         "country": "PT",
         "logo": "https://i.imgur.com/6jNqpTP.png",
-        "stream": "https://w1.manasat.com/tvmana-1/smil:tvmana-1.smil/playlist.m3u8"
+        "stream": "https://w1.manasat.com/tvmana-1/smil:tvmana-1.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "TVMana2.pt",
         "name": "TV Mana 2",
         "country": "PT",
         "logo": "https://i.imgur.com/VYNjVov.png",
-        "stream": "https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8"
+        "stream": "https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "TVManaBrasil.pt",
         "name": "TV Mana Brasil",
         "country": "PT",
         "logo": "https://i.imgur.com/AFb712e.png",
-        "stream": "https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8"
+        "stream": "https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "TVManaEnglish.pt",
         "name": "TV Mana English",
         "country": "PT",
         "logo": "https://i.imgur.com/I66IkCw.png",
-        "stream": "https://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8"
+        "stream": "https://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "TVManaEspanhol.pt",
         "name": "TV Mana Espanhol",
         "country": "PT",
         "logo": "https://i.imgur.com/sUlrSwP.png",
-        "stream": "https://w1.manasat.com/tvmana-espanol/smil:tvmana-espanol.smil/playlist.m3u8"
+        "stream": "https://w1.manasat.com/tvmana-espanol/smil:tvmana-espanol.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "TVManaRusskiy.pt",
         "name": "TV Mana Russkiy",
         "country": "PT",
         "logo": "https://i.imgur.com/fACHqmY.png",
-        "stream": "https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8"
+        "stream": "https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "VPlusTVI.pt",
         "name": "V+ TVI",
         "country": "PT",
         "logo": "https://i.imgur.com/rb9IKsS.png",
-        "stream": "https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8"
+        "stream": "https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "WayTV.pt",
         "name": "Way TV",
         "country": "PT",
         "logo": "https://i.ibb.co/gdpvKpS/cropped-Asset-1.png",
-        "stream": "http://213.13.26.11:1935/live/sobrenaturaltv/livestream.m3u8"
+        "stream": "http://213.13.26.11:1935/live/sobrenaturaltv/livestream.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     },
     {
         "id": "WEBTVPaixaoFM.pt",
         "name": "WEB TV Paixao FM",
         "country": "PT",
         "logo": "https://radiopaixaofm.live/admin/assets/img/logo.png",
-        "stream": "https://stmv2.samcast.com.br/romeu6622/romeu6622/playlist.m3u8"
+        "stream": "https://stmv2.samcast.com.br/romeu6622/romeu6622/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
     }
 ]

@@ -13,6 +13,7 @@ STREAMS_URL = (
     "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/pt.m3u"
 )
 PORTUGAL_ID = "PT"
+USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
 
 
 @dataclass
@@ -37,6 +38,7 @@ class Channel:
     country: str
     logo: str
     stream: str
+    headers: dict[str, str]
 
 
 def download_database() -> list[DatabaseEntry]:
@@ -76,6 +78,14 @@ def download_streams() -> list[StreamEntry]:
     return entries
 
 
+def headers_for_channel_id(channel_id: str) -> dict[str, str]:
+    headers = {"User-Agent": USER_AGENT}
+    if channel_id == "SICNoticias.pt":
+        headers["Referer"] = "https://sicnoticias.pt/"
+        headers["Origin"] = "https://sicnoticias.pt"
+    return headers
+
+
 def merge_entries(
     database: list[DatabaseEntry], streams: list[StreamEntry]
 ) -> list[Channel]:
@@ -91,6 +101,7 @@ def merge_entries(
                     country=entry.country,
                     logo=entry.logo,
                     stream=stream.stream,
+                    headers=headers_for_channel_id(entry.id),
                 )
                 channels.append(channel)
                 break

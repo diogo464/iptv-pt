@@ -7,13 +7,13 @@ import Layout from "../../layouts/Layout.astro";
 export const getStaticPaths = (() => {
     return getChannels().map((channel) => ({
         params: {
-            channel: channel.id,
+            id: channel.id,
         },
     }));
 }) satisfies GetStaticPaths;
 
-const { channel } = Astro.params;
-const channelData = getChannelById(channel);
+const { id } = Astro.params;
+const channel = getChannelById(id);
 ---
 
 <Layout>
@@ -23,7 +23,10 @@ const channelData = getChannelById(channel);
         controls
         preload="auto"
     >
-        <source src={channelData.stream} type="application/x-mpegURL" />
+        <source
+            src={`/stream/${channel.id}/playlist.m3u8`}
+            type="application/x-mpegURL"
+        />
     </video>
 
     <script>
