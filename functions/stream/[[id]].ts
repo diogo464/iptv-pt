@@ -1,3 +1,5 @@
+const FORBIDDEN_HEADERS = ["user-agent"];
+
 interface Channel {
     id: string;
     name: string;
@@ -20,9 +22,14 @@ export const onRequest: PagesFunction = async (context) => {
     console.log(`Fetching channel ${channelId}`);
     const channel = await fetchChannel(localUrl, channelId);
     if (context.params.id[1] == "playlist.m3u8") {
-        console.log(`Fetching main playlist for channel ${channelId}`);
-        const playlist = await fetchChannelMainPlaylist(channel);
-        return new Response(playlist);
+        if (channelRequiresProxy(channel)) {
+            console.log(`Fetching main playlist for channel ${channelId}`);
+            const playlist = await fetchChannelMainPlaylist(channel);
+            return new Response(playlist);
+        } else {
+            console.log(`Redirecting to main playlist for channel ${channelId}`);
+            return Response.redirect(channel.stream, 302);
+        }
     } else if (context.params.id[1] == "chunk") {
         console.log(`Fetching chunk for channel ${channelId}`);
         const chunkUrl = requestUrl.searchParams.get("url");
@@ -35,7 +42,8 @@ export const onRequest: PagesFunction = async (context) => {
 
 const fetchChannel = async (localUrl: string, channelId: string): Promise<Channel> => {
     const url = `${localUrl}/channels/${channelId}.json`;
-    return await (await fetch(url)).json() as Channel;
+    const channel = await (await fetch(url)).json() as Channel;
+    return channel;
 }
 
 const fetchChannelMainPlaylist = async (channel: Channel): Promise<string> => {
@@ -87,4 +95,8 @@ const streamBaseUrlFromPlaylistUrl = (streamUrl: string) => {
     if (streamUrl.endsWith("/"))
         streamUrl = streamUrl.substring(0, streamUrl.length - 1);
     return streamUrl.substring(0, streamUrl.lastIndexOf('/'));
+}
+
+const channelRequiresProxy = (channel: Channel): boolean => {
+    return FORBIDDEN_HEADERS.some(header => header.toLowerCase() in channel.headers);
 }
