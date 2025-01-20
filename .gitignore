@@ -1,5 +1,7 @@
 # build output
 dist/
+/*.m3u
+/*.csv
 
 # generated types
 .astro/

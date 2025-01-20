@@ -2,33 +2,31 @@ import json
 import logging
 import os
 import csv
+import re
 import requests
+import unicodedata
 
 from io import BytesIO
 from PIL import Image
 from dataclasses import dataclass
 
+DATABASE_FILE = "channels.csv"
 DATABASE_URL = "https://raw.githubusercontent.com/iptv-org/database/refs/heads/master/data/channels.csv"
+STREAMS_FILE = "pt.m3u"
 STREAMS_URL = (
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/pt.m3u"
+    "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/M3UPT.m3u"
 )
 PORTUGAL_ID = "PT"
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
 
 
 @dataclass
-class DatabaseEntry:
-    id: str
-    name: str
-    country: str
-    closed: bool
-    logo: str
-
-
-@dataclass
 class StreamEntry:
     id: str
+    name: str
     stream: str
+    logo: str | None
+    headers: dict[str, str]
 
 
 @dataclass
@@ -41,97 +39,112 @@ class Channel:
     headers: dict[str, str]
 
 
-def download_database() -> list[DatabaseEntry]:
-    response = requests.get(DATABASE_URL)
-    response.raise_for_status()  # Ensure we notice bad responses
+def normalize_id(id: str) -> str:
+    # https://stackoverflow.com/questions/517923/what-is-the-best-way-to-remove-accents-normalize-in-a-python-unicode-string
+    nfkd_form = unicodedata.normalize("NFKD", id)
+    only_ascii = nfkd_form.encode("ASCII", "ignore").decode("utf-8")
+    return only_ascii.replace(" ", "").replace("&", "")
 
+
+def parse_m3u(content: str) -> list[StreamEntry]:
     entries = []
-    csv_content = response.text.splitlines()
-    reader = csv.DictReader(csv_content)
-    for row in reader:
-        entry = DatabaseEntry(
-            id=row["id"],
-            name=row["name"],
-            country=row["country"],
-            closed=row["closed"].lower() == "true",
-            logo=row["logo"],
+    metadata_lines = []
+    for line in content.splitlines():
+        line = line.strip()
+        if line == "":
+            metadata_lines.clear()
+            continue
+
+        if line.startswith("#"):
+            metadata_lines.append(line)
+            continue
+
+        if len(metadata_lines) > 0 and "tvg-id" not in metadata_lines[0]:
+            continue
+
+        stream = line
+        headers = {}
+        for metadata_line in metadata_lines:
+            if metadata_line.startswith("EXTVLCOPT:http-user-agent="):
+                headers["User-Agent"] = metadata_line.split("=")[1]
+            elif metadata_line.startswith("#EXTVLCOPT:http-referrer="):
+                headers["Referer"] = metadata_line.split("=")[1]
+
+        if "User-Agent" not in headers:
+            headers["User-Agent"] = USER_AGENT
+
+        if len(metadata_lines) == 0:
+            logging.warning(f"Stream without metadata: {line}")
+            continue
+
+        name = metadata_lines[0].split(",")[-1]
+
+        id_match = re.search(r'tvg-id="([^"]+)"', metadata_lines[0])
+        if id_match is not None:
+            tvg_id = id_match.group(1)
+        else:
+            tvg_id = name
+        tvg_id = normalize_id(tvg_id)
+
+        if tvg_id == "":
+            logging.warning(f"Stream without tvg-id: {metadata_lines[0]}")
+            continue
+
+        logo_match = re.search(r'tvg-logo="([^"]*)"', metadata_lines[0])
+        if logo_match is not None and logo_match.group(1) != "":
+            logo = logo_match.group(1)
+        else:
+            logo = None
+
+        entries.append(
+            StreamEntry(id=tvg_id, name=name, stream=stream, logo=logo, headers=headers)
         )
-        entries.append(entry)
 
     return entries
 
 
 def download_streams() -> list[StreamEntry]:
-    response = requests.get(STREAMS_URL)
-    response.raise_for_status()  # Ensure we notice bad responses
+    if os.path.exists(STREAMS_FILE):
+        with open(STREAMS_FILE, "r") as file:
+            content = file.read()
+    else:
+        response = requests.get(STREAMS_URL)
+        response.raise_for_status()  # Ensure we notice bad responses
+        content = response.text
+        with open(STREAMS_FILE, "w") as file:
+            file.write(content)
 
-    entries = []
-    lines = response.text.splitlines()
-    for i in range(len(lines)):
-        if lines[i].startswith("#EXTINF"):
-            tvg_id = lines[i].split('tvg-id="')[1].split('"')[0]
-            stream = lines[i + 1].strip()
-            if stream.startswith("#"):
-                stream = lines[i + 2].strip()
-            entries.append(StreamEntry(id=tvg_id, stream=stream))
-
-    return entries
+    return parse_m3u(content)
 
 
-def headers_for_channel_id(channel_id: str) -> dict[str, str]:
-    headers = {"User-Agent": USER_AGENT}
-    if channel_id == "SICNoticias.pt":
-        headers["Referer"] = "https://sicnoticias.pt/"
-        headers["Origin"] = "https://sicnoticias.pt"
-    return headers
-
-
-def merge_entries(
-    database: list[DatabaseEntry], streams: list[StreamEntry]
-) -> list[Channel]:
-    channels = []
-    for stream in streams:
-        if any(channel.id == stream.id for channel in channels):
-            continue
-        for entry in database:
-            if stream.id == entry.id:
-                channel = Channel(
-                    id=entry.id,
-                    name=entry.name,
-                    country=entry.country,
-                    logo=entry.logo,
-                    stream=stream.stream,
-                    headers=headers_for_channel_id(entry.id),
-                )
-                channels.append(channel)
-                break
-
-    return channels
-
-
-def download_channel_logos(channels: list[Channel]):
+def download_channel_logos(streams: list[StreamEntry]):
     if not os.path.exists("./public/logos"):
         os.makedirs("./public/logos")
 
-    for channel in channels:
+    for stream in streams:
+        if stream.logo is None:
+            continue
+
         try:
             response = requests.get(
-                channel.logo,
+                stream.logo,
                 headers={
                     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
                 },
             )
             response.raise_for_status()
             image = Image.open(BytesIO(response.content))
-            image_path = f"./public/logos/{channel.id}.webp"
+            image_path = f"./public/logos/{stream.id}.webp"
             if not os.path.exists(image_path):
                 image.save(image_path, "WEBP")
         except Exception as e:
-            logging.warning(f"Failed to download logo for {channel.name}: {e}")
+            logging.warning(
+                f"Failed to download logo for {stream.name} at {stream.logo}: {e}"
+            )
 
 
 def sort_channels(channels: list[Channel]) -> list[Channel]:
-    priority_prefixes = ["rtp", "sic", "artv", "tvi"]
+    priority_prefixes = ["rtp", "sic", "artv", "tvi", "cnn"]
     priority_channels = []
     other_channels = []
     for channel in channels:
@@ -142,12 +155,24 @@ def sort_channels(channels: list[Channel]) -> list[Channel]:
     return priority_channels + other_channels
 
 
+def streams_to_channels(streams: list[StreamEntry]) -> list[Channel]:
+    channels = []
+    for stream in streams:
+        country = PORTUGAL_ID
+        name = stream.name
+        id = stream.id
+        logo = stream.logo
+        stream_url = stream.stream
+        headers = stream.headers
+        channels.append(Channel(id, name, country, logo, stream_url, headers))
+    return channels
+
+
 def main():
     logging.basicConfig(level=logging.WARNING)
 
-    database_entries = download_database()
-    stream_entries = download_streams()
-    channels = merge_entries(database_entries, stream_entries)
+    streams = download_streams()
+    channels = streams_to_channels(streams)
     channels = sort_channels(channels)
     download_channel_logos(channels)
     with open("./public/channels.json", "w") as file:
