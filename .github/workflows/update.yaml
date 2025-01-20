@@ -1,0 +1,27 @@
+name: Update streams
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */2 * * *"
+
+jobs:
+  Update-streams:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: update streams
+        run: python3 scripts/fetch-data.py
+
+      - name: setup git config
+        run: |
+          git config user.name "Portugal IPTV"
+          git config user.email ""
+
+      - name: commit
+        run: |
+          git add .
+          git commit -m "[bot]: updated streams"
+          git push origin main
