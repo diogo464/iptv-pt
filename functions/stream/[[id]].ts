@@ -16,11 +16,15 @@ export const onRequest: PagesFunction = async (context) => {
     const requestUrl = new URL(context.request.url);
     const localUrl = requestUrl.protocol + "//" + requestUrl.hostname + ":" + requestUrl.port;
     const channelId = context.params.id[0];
+
+    console.log(`Fetching channel ${channelId}`);
     const channel = await fetchChannel(localUrl, channelId);
     if (context.params.id[1] == "playlist.m3u8") {
+        console.log(`Fetching main playlist for channel ${channelId}`);
         const playlist = await fetchChannelMainPlaylist(channel);
         return new Response(playlist);
     } else if (context.params.id[1] == "chunk") {
+        console.log(`Fetching chunk for channel ${channelId}`);
         const chunkUrl = requestUrl.searchParams.get("url");
         const chunk = await fetchChannelChunk(channel, chunkUrl);
         return new Response(chunk);
@@ -31,7 +35,6 @@ export const onRequest: PagesFunction = async (context) => {
 
 const fetchChannel = async (localUrl: string, channelId: string): Promise<Channel> => {
     const url = `${localUrl}/channels/${channelId}.json`;
-    console.log(`Fetching channel from ${url}`);
     return await (await fetch(url)).json() as Channel;
 }
 
@@ -52,9 +55,15 @@ const fetchChannelPlaylist = async (channel: Channel, playlist: string): Promise
 const fetchChannelChunk = async (channel: Channel, chunkUrl: string): Promise<any> => {
     const url = new URL(chunkUrl);
     if (url.pathname.endsWith(".m3u8")) {
+        console.log(`Fetching chunk playlist for channel ${channel.id}`);
         return await fetchChannelPlaylist(channel, chunkUrl);
     } else {
+        console.log(`Fetching chunk data for channel ${channel.id}`);
         const response = await fetch(chunkUrl, { headers: channel.headers });
+        if (response.status !== 200) {
+            console.log(`Failed to fetch chunk data: ${response.statusText}`);
+            throw new Error(`Failed to fetch chunk data: ${response.statusText}`);
+        }
         return response.body;
     }
 }
