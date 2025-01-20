@@ -8,9 +8,14 @@ jobs:
   Update-streams:
     runs-on: ubuntu-latest
     steps:
-    
       - name: checkout
         uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - run: pip install requests pillow
 
       - name: update streams
         run: python3 scripts/fetch-data.py
