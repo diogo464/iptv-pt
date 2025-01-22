@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMi8yMDI1IDg6Njo0MSBQTSZoYXNoX3ZhbHVlPTVraXg0SE0xVHJGc3ZNQUVsVWMzM1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wMWYyNjk0Yi1kNDJkLTQ3NzctOGJmNy1lNzI4YzZhYThhNWI=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMi8yMDI1IDEwOjU6MzggUE0maGFzaF92YWx1ZT1wTktrbFpwTnYyblZ6RDdTNHNBaU9BPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YWJiMjZlYzktZDA0ZS00Y2U3LTgwZjQtMDBiZTFhZjNkNmU2/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMi8yMDI1IDg6Njo0MiBQTSZoYXNoX3ZhbHVlPWZGOW92VjJCU2wwcTZ5L3NyWUZZZ2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yOGI0N2Y4MC1mMDU3LTQ4M2UtYTgxYy0yMGJiOGUyNjYzZGE=/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMi8yMDI1IDEwOjU6NDAgUE0maGFzaF92YWx1ZT0wN1prQm8raFdOdDU0TWZwYURyZnZ3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDM5MjAzMTUtYmExMy00NWJlLTlhOTgtYjlkODIzNjhhYzM3/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -135,7 +135,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMi8yMDI1IDg6Njo0MyBQTSZoYXNoX3ZhbHVlPWdvRjhBMHhydi9jRHp1UU85azc1aVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xMTE0YzhmNS1jZjlkLTQ0OWUtYmIyNi00YjY1ODkwOTYyZjA=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMi8yMDI1IDEwOjU6NDAgUE0maGFzaF92YWx1ZT1rVys1bm5WRjJqeURXaUJ6RDBDdUx3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YTlhMzA2MGYtODM0MC00Mjc1LWE0NDYtMGFkYWFjNDM1MTBi/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -468,6 +468,16 @@
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NBC-News-Now.png",
         "stream": "http://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1212A-xumo-nbcnewsnow/CDN/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "BBCNews.uk",
+        "name": "BBC News",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BBC-World-News.png",
+        "stream": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
