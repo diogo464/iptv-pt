@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yOC8yMDI1IDg6NjoyNSBQTSZoYXNoX3ZhbHVlPUozNXAyZlREMVErMStUOU1UUHVld0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD02Y2FiN2Q1NC1hOTA2LTQwNjMtYjg2MS1hMDc5NmI2MzBmOTk=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yOC8yMDI1IDEwOjU6NDAgUE0maGFzaF92YWx1ZT0vSEMyeUxTUktwa0tBUzV1ZVBXQStRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9N2U3MzYyZGItODJhMi00ZGVjLWExNTEtZWVjNmQzYmViMmFm/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yOC8yMDI1IDg6NjoyNiBQTSZoYXNoX3ZhbHVlPXdPdlBIV3dWMkF3b003dUt4NGs3RFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xMGE2OGRhNS1jYzk4LTRmZjctYTA3Yy0zYjZkYjlhNTkyMWU=/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yOC8yMDI1IDEwOjU6NDEgUE0maGFzaF92YWx1ZT1jN0IrVm1LQWlIdUhMb25ERnczUUh3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZmM5ZTYwZjQtZDJhZS00ZmYzLTgzNDUtNTc0ODA5MjVmOGNi/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -135,7 +135,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yOC8yMDI1IDg6NjoyNiBQTSZoYXNoX3ZhbHVlPVNQK2svSjhaNXlJSVRXN2VwcXNwVWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yNDJhOWJmYy0yZjZkLTQ5YzktYjk1ZS03ZTQ0MmQ4NTZhMmE=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yOC8yMDI1IDEwOjU6NDIgUE0maGFzaF92YWx1ZT1wTmZJUlQzRlFnMTA4c1RmZVkzT2xBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9N2U2ODU2YWQtZjExYy00NzUyLWI0NjItMWJjOGMzZTE3NWJm/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -187,7 +187,7 @@
         "name": "CNN",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN.png",
-        "stream": "https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8",
+        "stream": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
