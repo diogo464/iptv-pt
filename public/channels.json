@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi80LzIwMjUgMjo1OjU1IFBNJmhhc2hfdmFsdWU9eVYzbGpoMlFLYytiTHNiZUw1VFpXQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWVmMGMwYTBjLTdmNjAtNGIwMC1hN2E5LTNhZWQwMzA2YWM0Mg==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi80LzIwMjUgNDo2OjU4IFBNJmhhc2hfdmFsdWU9VEtqUzAwanBQUE4zZGV1OThhbFJFUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTAzZTdkNWFmLWVjZjYtNGI5NC04NjFjLTQzOTM4MGMwZTU1Yg==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi80LzIwMjUgMjo1OjU1IFBNJmhhc2hfdmFsdWU9TTBFY3RFUGh0N2h6ajRCWDhpOHc4UT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTY4ODU4ZjE1LTViZWYtNGY2MC1hZmQyLTMyMzc1ODY1ZDQ4Ng==/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi80LzIwMjUgNDo2OjU4IFBNJmhhc2hfdmFsdWU9NDFjZXE4RmZzcWRvMFA1em02eDBkUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTZkM2E3OTQyLWRmZjAtNGM0ZC05Y2RlLWY4NGViMTZiNzUxOA==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -135,7 +135,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi80LzIwMjUgMjo1OjU3IFBNJmhhc2hfdmFsdWU9OVVsdzZlbFdvZkt4VXphSkdBZnlXQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWNjNTFmYmE0LTYxZmQtNGJiMi04YTY2LTRiYWMxZTJiMTQxMw==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi80LzIwMjUgNDo2OjU5IFBNJmhhc2hfdmFsdWU9STM1OHZUQzRFc1ZLam9remZla2Rldz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTUxYmM2YmE5LTM5NjEtNGQ4OC05ODFmLThkZTRkOTkzOGY1MQ==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -273,21 +273,31 @@
         }
     },
     {
-        "id": "LoveNature4K.ca",
-        "name": "Love Nature TV",
+        "id": "MovieSphere.us",
+        "name": "MovieSphere",
         "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Love-Nature-TV.png",
-        "stream": "https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/MovieSphere.jpg",
+        "stream": "https://moviesphereuk-samsunguk.amagi.tv/1080p-vtt/index.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
     },
     {
-        "id": "RakutenTVDocumentaries.fi",
-        "name": "Rakuten Documentaries",
+        "id": "RakutenViki.es",
+        "name": "Rakuten Viki",
         "country": "PT",
-        "logo": null,
-        "stream": "https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Rakuten_Viki.png",
+        "stream": "https://fd18f1cadd404894a31a3362c5f319bd.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_RakutenViki-1/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "LoveNature4K.ca",
+        "name": "Love Nature TV",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Love-Nature-TV.png",
+        "stream": "https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
