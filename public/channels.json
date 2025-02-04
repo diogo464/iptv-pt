@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjUgMTA6NTo0NSBQTSZoYXNoX3ZhbHVlPVZJdmEvcmdNdjQ3YTh3ZWNjbTdkR3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD00NDU1NmI2ZS1iYjU2LTQ0NzMtYTc3MC00OWM1YmQ5YzdmOTc=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi80LzIwMjUgMTI6MjY6MCBBTSZoYXNoX3ZhbHVlPVlvaC8yZ2VEUkRQaDJpR3ZrTGV3WGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1lNzM3NTc2Ny00NTVkLTQwMzktOGQ4Ny1lMzg1OTRmZWQ0ZDQ=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjUgMTA6NTo0NSBQTSZoYXNoX3ZhbHVlPXpLcnZPcTY1ZS9rcGp1SFlrV2lYYXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wYzEyZDE1My0wMTdlLTRjNjYtYmM2Ny05MWIyZGJkZDY1YjA=/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi80LzIwMjUgMTI6MjY6MSBBTSZoYXNoX3ZhbHVlPW44NFlTMDRUWjZhYzRXYVBUaDVWN0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1lMTVjOTk5Yy01Y2RhLTRjZGUtOTQ0YS0xODI4NjlmMGE1MTU=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -131,11 +131,11 @@
         }
     },
     {
-        "id": "TVIInt.pt",
+        "id": "TVIInternacional.pt",
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjUgMTA6NTo0NiBQTSZoYXNoX3ZhbHVlPVpCQVBaQkZ4TG95YXcyTDZFNVJvQWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1jMDgwZTMyNi1hMjZmLTRjMWYtOWMwZC0yZWMyNTMyMjNkZGE=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi80LzIwMjUgMTI6MjY6MSBBTSZoYXNoX3ZhbHVlPVpnQWN1cko3YkpDUWJsMUhDMGNza0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1lMTNhOTM1ZC1hNWE0LTQ0MTQtOTFlZS1kNDNkZGMyZTkxNjc=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -172,7 +172,7 @@
         }
     },
     {
-        "id": "SICAltaDefinicao",
+        "id": "SICAltaDefinicao.pt",
         "name": "SIC Alta Defini\u00e7\u00e3o",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Alta-Defini\u00e7\u00e3o.png",
@@ -223,7 +223,7 @@
         }
     },
     {
-        "id": "FamaTV",
+        "id": "Famatv.pt",
         "name": "Fama TV",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fama-TV.jpg",
@@ -233,7 +233,7 @@
         }
     },
     {
-        "id": "CamoesTV",
+        "id": "CamoesTV.ca",
         "name": "Cam\u00f5es TV",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CamoesTV.png",
@@ -243,7 +243,27 @@
         }
     },
     {
-        "id": "MyTimeMovieNetwork",
+        "id": "Darkflix",
+        "name": "Darkflix",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Darkflix.png",
+        "stream": "https://video01.soultv.com.br/darkflix/darkflix/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "Cinemonde",
+        "name": "Cinemonde",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cinemonde.png",
+        "stream": "https://video01.soultv.com.br/cinemonde/cinemonde/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "MyTimeMovieNetwork.br",
         "name": "MyTime Movie Network (BR)",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/My-Time-Movie-Network.png",
@@ -253,11 +273,51 @@
         }
     },
     {
-        "id": "LoveNatureTV",
+        "id": "LoveNature4K.ca",
         "name": "Love Nature TV",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Love-Nature-TV.png",
         "stream": "https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RakutenTVDocumentaries.fi",
+        "name": "Rakuten Documentaries",
+        "country": "PT",
+        "logo": null,
+        "stream": "https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "PortadosFundos.br",
+        "name": "Porta dos Fundos",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porta-dos-Fundos.jpg",
+        "stream": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f36f2346ede750007332d11/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "BraziTV.us",
+        "name": "BraziTV",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BraziTV.png",
+        "stream": "https://cbtvnow.com:5866/hls/livest2024.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "TVCamara.br",
+        "name": "TV C\u00e2mara",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TV-camara.png",
+        "stream": "https://stream3.camara.gov.br/tv1/manifest.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -278,6 +338,56 @@
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/AgroBrasil-TV.png",
         "stream": "https://server.flixtv.com.br/agrobrasiltv/agrobrasiltv/chunklist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "LotusTV.mo",
+        "name": "Lotus Macau",
+        "country": "PT",
+        "logo": "https://www.lyngsat-logo.com/logo/tv/mm/macau_lotus_tv_mo.png",
+        "stream": "https://cdn1.skygo.mn/live/disk1/Lotus/HLS-FTA/Lotus.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "CanalMacau.mo",
+        "name": "TDM - Teledifus\u00e3o de Macau (PT)",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TDM-Teledifus\u00e3o_de_Macau.png",
+        "stream": "https://live4.tdm.com.mo/ch2/_definst_/ch2.live/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "TDMMacauSatellite.mo",
+        "name": "TDM - Teledifus\u00e3o de Macau (CN)",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TDM-Teledifus\u00e3o_de_Macau.png",
+        "stream": "https://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "TVM.mz",
+        "name": "TVM",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVM.png",
+        "stream": "http://online.tvm.co.mz:1935/live/smil:Channel1.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "TVMInternacional.mz",
+        "name": "TVM Internacional",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVMI.png",
+        "stream": "http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -313,7 +423,7 @@
         }
     },
     {
-        "id": "HispanTV",
+        "id": "HispanTV.ir",
         "name": "HispanTV",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/HispanTV.png",
@@ -323,7 +433,7 @@
         }
     },
     {
-        "id": "PressTV",
+        "id": "PressTV.ir",
         "name": "Press TV",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Press-TV.png",
@@ -333,7 +443,7 @@
         }
     },
     {
-        "id": "FreeSpeechTV",
+        "id": "FreeSpeechTV.us",
         "name": "Free Speech TV",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Free-Speech-TV.webp",
@@ -433,7 +543,7 @@
         }
     },
     {
-        "id": "France24Arabic",
+        "id": "France24Arabic.fr",
         "name": "France 24 Arabic",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/France-24.png",
@@ -443,7 +553,17 @@
         }
     },
     {
-        "id": "ABCNews",
+        "id": "LiveNOWfromFOX.us",
+        "name": "Fox Now",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/LiveNOW_from_Fox.webp",
+        "stream": "https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "ABCNewsLive.us",
         "name": "ABC News",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ABC-News.png",
@@ -453,7 +573,7 @@
         }
     },
     {
-        "id": "CBSN",
+        "id": "CBSNews247.us",
         "name": "CBS News",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CBSN.png",
@@ -463,7 +583,7 @@
         }
     },
     {
-        "id": "NBCNewsNow",
+        "id": "NBCNewsNOW.us",
         "name": "NBC News Now",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NBC-News-Now.png",
@@ -774,7 +894,17 @@
         }
     },
     {
-        "id": "NickClassico",
+        "id": "RakutenTVFamilyMovies.uk",
+        "name": "Rakuten Family",
+        "country": "PT",
+        "logo": null,
+        "stream": "https://48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6213/master.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "NickClassico.br",
         "name": "Nick Cl\u00e1ssico",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Nick-Cl\u00e1ssico.jpg",
@@ -784,7 +914,7 @@
         }
     },
     {
-        "id": "BabyFirst",
+        "id": "BabyFirst.br",
         "name": "BabyFirst",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BabyFirst.png",
@@ -794,7 +924,7 @@
         }
     },
     {
-        "id": "RetroCartoon",
+        "id": "RetroCartoon.br",
         "name": "Retr\u00f4 Cartoon",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Retro-TV.png",
@@ -804,11 +934,31 @@
         }
     },
     {
-        "id": "AnimeTV",
+        "id": "AnimeTV.br",
         "name": "Anime TV",
         "country": "PT",
         "logo": null,
         "stream": "https://stmv1.srvif.com/animetv/animetv/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "Geekdot.br",
+        "name": "Geekdot",
+        "country": "PT",
+        "logo": null,
+        "stream": "https://stream.ichibantv.com:3764/hybrid/play.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "LocomotionTV.do",
+        "name": "Locomotion",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Locomotion.png",
+        "stream": "http://51.222.85.85:81/hls/loco/index.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -819,6 +969,16 @@
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Gulli.png",
         "stream": "https://origin-caf900c010ea8046.live.6cloud.fr/out/v1/c65696b42ca34e97a9b5f54758d6dd50/cmaf/hlsfmp4_short_q2hyb21h_gulli_sd_index.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RadioSines.pt",
+        "name": "R\u00e1dio Sines",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/R\u00e1dio-Sines.png",
+        "stream": "https://streamer-a01.videos.sapo.pt/live/radiosinesdireto/index.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -854,6 +1014,16 @@
         }
     },
     {
+        "id": "NRG91.gr",
+        "name": "NRG 91 TV",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NRG-91-TV.png",
+        "stream": "http://tv.nrg91.gr:1935/onweb/live/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
         "id": "myDeejay.it",
         "name": "DeeJay TV",
         "country": "PT",
@@ -874,11 +1044,51 @@
         }
     },
     {
-        "id": "SexyKPOPTV",
+        "id": "KpopTVPlay.br",
         "name": "Sexy KPOP TV",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Sexy-KPOP-TV.png",
         "stream": "https://ssh101-fl.bozztv.com/ssh101/kpoptv/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "FMITALIA.it",
+        "name": "FM Italia TV",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/FM-Italia-TV.png",
+        "stream": "https://stream1.xdevel.com/video0s975817-1182/stream/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "ColosalTV.cr",
+        "name": "Colosal TV",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Colosal-TV.png",
+        "stream": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "CaliforniaMusicChannel.us",
+        "name": "California Music Channel",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CMC.png",
+        "stream": "https://cmc-ono.amagi.tv/amRdirect/device[did]=%5BAD_IDFA%5B&us_privacy=%7BUS_PRIVACY%7D&coppa=%7BCOPPA%7D&uid=1fpn9sr15-vpg2-1jg-4kgx-p57ss8l4h2/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/1920x1080_5711200/index.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RedBullTV.at",
+        "name": "Red Bull TV",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Red-Bull-TV.png",
+        "stream": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -894,7 +1104,7 @@
         }
     },
     {
-        "id": "AbuDhabiSports1",
+        "id": "AbuDhabiSports1.ae",
         "name": "Abu Dhabi Sports 1",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Abu-Dhabi-Sports-1.png",
@@ -904,7 +1114,7 @@
         }
     },
     {
-        "id": "AbuDhabiSports2",
+        "id": "AbuDhabiSports2.ae",
         "name": "Abu Dhabi Sports 2",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Abu-Dhabi-Sports-2.png",
@@ -914,7 +1124,7 @@
         }
     },
     {
-        "id": "DubaiSports",
+        "id": "DubaiSports1.ae",
         "name": "Dubai Sports",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Sports.png",
@@ -924,7 +1134,7 @@
         }
     },
     {
-        "id": "DubaiSports2",
+        "id": "DubaiSports2.ae",
         "name": "Dubai Sports 2",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Sports-2.png",
@@ -934,7 +1144,7 @@
         }
     },
     {
-        "id": "DubaiSports3",
+        "id": "DubaiSports3.ae",
         "name": "Dubai Sports 3",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Sports-3.png",
@@ -954,7 +1164,7 @@
         }
     },
     {
-        "id": "HDFashionLifestyleTV",
+        "id": "HDFASHIONLifeStyle.ua",
         "name": "HD Fashion & Lifestyle TV",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/HD-Fashion-&-Lifestyle-TV.png",
@@ -964,7 +1174,7 @@
         }
     },
     {
-        "id": "world-fashion",
+        "id": "WorldFashionChannel.ru",
         "name": "World Fashion Channel",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/World-Fashion-Channel.jpg",
@@ -984,7 +1194,7 @@
         }
     },
     {
-        "id": "GrandLilleTV",
+        "id": "BFMGrandLille.fr",
         "name": "BFM Grand Lille",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Grand-Lille-TV.png",
@@ -1009,6 +1219,36 @@
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Das-Erste.png",
         "stream": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "Akaku53.us",
+        "name": "Akaku TV 1",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Akaku-TV-1.png",
+        "stream": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch1/video.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "Akaku54.us",
+        "name": "Akaku TV 2",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Akaku-TV-2.png",
+        "stream": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch2/video.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "Akaku55.us",
+        "name": "Akaku TV 3",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Akaku-TV-3.png",
+        "stream": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch3/video.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
