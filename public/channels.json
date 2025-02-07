@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi83LzIwMjUgMTI6OTo1MCBQTSZoYXNoX3ZhbHVlPVVnVklIVTdtcXhoanUycEtxdWtiSVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zNDg3MDFmZi1iOWNkLTRhOGQtYTQzNy04ZjNmMjQ4NDlkYWQ=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi83LzIwMjUgMjo1OjQ0IFBNJmhhc2hfdmFsdWU9YzA4aUZqa3ZHV0tUcDd5bUZEYUJIUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWRiOGMwMjZmLTFjMjktNDg1Yy1iYjA1LTRiZDM2MTIzNzczZg==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi83LzIwMjUgMTI6OTo1MSBQTSZoYXNoX3ZhbHVlPVo5clFrSnhNcXFVbS8yeDA4QVRwWXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD00NjM2MDY1Ni1hNzc5LTRhNmEtODljMS00NzQ0ZWE0MmIzYzM=/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi83LzIwMjUgMjo1OjQ1IFBNJmhhc2hfdmFsdWU9b2podkJUOStDZGd0L2JtbmRNVloyUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWVkMTBjZTA4LTQyOTctNGY1MS1hNmJkLTVkZTg3M2JmM2Y5MQ==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -135,7 +135,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi83LzIwMjUgMTI6OTo1MSBQTSZoYXNoX3ZhbHVlPWliNis3STk2dFBZOGVBT1JnWlArQkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD02MGJjNDhmOS0zM2JmLTRlMGUtOTIyMS05MWI0MTliY2E3ODk=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi83LzIwMjUgMjo1OjQ1IFBNJmhhc2hfdmFsdWU9WktxcFZpcmxMbXVWSGZGM1JET1pwUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTdmMGNhZmUyLWU0YWItNDU4My1hYzdmLTZiNTA5NGQyMzcwOQ==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -197,7 +197,17 @@
         "name": "Euronews PT",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
-        "stream": "https://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_EuroNewsLive/playlist.m3u8",
+        "stream": "https://euronews-live-por-pt.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/7392d4f0-7e24-4dbe-8482-f165e712eeed/5.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "EuronewsPortuguese.fr",
+        "name": "Euronews PT",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
+        "stream": "https://youtu.be/XuZAl-ZPEcA",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -367,7 +377,7 @@
         "name": "TDM - Teledifus\u00e3o de Macau (PT)",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TDM-Teledifus\u00e3o_de_Macau.png",
-        "stream": "https://live4.tdm.com.mo/ch2/_definst_/ch2.live/playlist.m3u8",
+        "stream": "https://globallive.tdm.com.mo/ch2/ch2.live/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -377,7 +387,7 @@
         "name": "TDM - Teledifus\u00e3o de Macau (CN)",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TDM-Teledifus\u00e3o_de_Macau.png",
-        "stream": "https://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8",
+        "stream": "https://globallive.tdm.com.mo/ch1/ch1.live/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
