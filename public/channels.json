@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNi8yMDI1IDY6Njo1MyBQTSZoYXNoX3ZhbHVlPXBFVW5VRVUrRnNCMXBRSVJwSndZaEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1hMTMxOWZhOC0yZGUzLTRkMzktOTVmMS01M2I1NDcxZWIyYzk=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNi8yMDI1IDg6NjoyMiBQTSZoYXNoX3ZhbHVlPXg5cmE2R01tRXhkMCt5UnMvVjA2c0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1iOTZmZDFlZC01MDQ5LTRhOTktOTI5Zi1lMWZhMGFlODQwNWM=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNi8yMDI1IDY6Njo1NCBQTSZoYXNoX3ZhbHVlPTJDcTVaK21kdFlkQWZEL1Y1NENZZFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xNzdiZTBlZS02OGM4LTRhMDctODcyMi05NTg3MmZkNjJhMWI=/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNi8yMDI1IDg6NjoyMiBQTSZoYXNoX3ZhbHVlPU9YRUxNdnMrdHNLUFV6RWYxTFp4aGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1kMTI4Y2NjNS0wNjIyLTQ0M2QtOTU3MC1kOGY1ZmE1MmE3ODg=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -135,7 +135,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNi8yMDI1IDY6Njo1NSBQTSZoYXNoX3ZhbHVlPXM2bE9SUkw3N2FHYTRoakxXTUtlQlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01Njk2ZDM5NS0yMmJhLTQyNDMtYWQ1ZS0xYTE5YjhhZmJkMTQ=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNi8yMDI1IDg6NjoyMyBQTSZoYXNoX3ZhbHVlPVdCOWhFcWd0TFBUR0VoMTJwQk5MaGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1jMzA3MWQzYi0yNDBhLTRlZTktOWM5Ny03MDZlYTg4YzkzNTU=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -146,6 +146,16 @@
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI_\u00c1frica.png",
         "stream": "https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "TVIFiccao.pt",
+        "name": "TVI Fic\u00e7\u00e3o",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Fic\u00e7\u00e3o.png",
+        "stream": "https://video-auth1.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1269,6 +1279,56 @@
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Akaku-TV-3.png",
         "stream": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch3/video.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "KuriakosTV.pt",
+        "name": "Kuriakos TV",
+        "country": "PT",
+        "logo": "http://www.kuriakos-tv.com/img/logo.png",
+        "stream": "https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "KuriakosCine.pt",
+        "name": "Kuriakos Cine",
+        "country": "PT",
+        "logo": "https://kuriakos-cine.com/wp-content/uploads/2022/11/Logo_cine.png",
+        "stream": "https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "KuriakosKids.pt",
+        "name": "Kuriakos Kids",
+        "country": "PT",
+        "logo": "https://kuriakos-kids.com/wp-content/uploads/2023/06/KuriakosKids_curvas.jpg",
+        "stream": "https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "KuriakosMusic.pt",
+        "name": "Kuriakos Music",
+        "country": "PT",
+        "logo": "https://kuriakosmusic.com/wp-content/uploads/2022/11/263x196_v1.png",
+        "stream": "https://w2.manasat.com/kmusic/smil:kmusic.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "TVCancaoNova.pt",
+        "name": "Can\u00e7\u00e3o Nova",
+        "country": "PT",
+        "logo": "https://tv.cancaonova.pt/wp-content/uploads/2016/01/logo_cn_radio.png",
+        "stream": "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
