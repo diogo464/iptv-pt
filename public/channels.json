@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNy8yMDI1IDEyOjEwOjQ2IFBNJmhhc2hfdmFsdWU9ZVEyUG1KVkVKdFhVZkc3RGxkS0MyZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTU0NmMxZjQyLTM5YjItNGU4Yy04Y2Q3LTMzZjY3YWUxYWUyMw==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNy8yMDI1IDI6NjoxMCBQTSZoYXNoX3ZhbHVlPW05NSt5SkNuMUNWZjhYVEgwdVA3a1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zZTQ4YjBmNi1hYTE1LTRjYmEtODQ5Yi0wMGE3NGRhZWZjYjE=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNy8yMDI1IDEyOjEwOjQ3IFBNJmhhc2hfdmFsdWU9UWFlVU96ekliYXBrTVNQWG5NN3JGdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTZlZmJiM2M4LWQzNjQtNDhkZS04ZjdlLWIyNTJjNmVhNTAyNw==/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNy8yMDI1IDI6NjoxMCBQTSZoYXNoX3ZhbHVlPWpBRVI3SC9RektrSittSVRML20rWkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD00YTQ1NzMxNC1lY2FiLTQ1YjAtOTZkYS1hMDZhOTc5NmM5OTE=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -135,7 +135,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNy8yMDI1IDEyOjEwOjQ4IFBNJmhhc2hfdmFsdWU9ZWZYd1RyWlVuUjdQd1U1UEVlbHFiUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTU2ODkxYjEyLTYwMzktNDcwYi04OTQ3LTBiNTZmNWRkNzNiYQ==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNy8yMDI1IDI6NjoxMSBQTSZoYXNoX3ZhbHVlPTVWNDQ5OHpvQzZmM2VWaVNZNmpwd1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xYWVjMzFlNS05YmQxLTQxMDQtYjZiYi05ZjZkNzAwMzZjYmY=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -368,16 +368,6 @@
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/AgroBrasil-TV.png",
         "stream": "https://server.flixtv.com.br/agrobrasiltv/agrobrasiltv/chunklist.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "LotusTV.mo",
-        "name": "Lotus Macau",
-        "country": "PT",
-        "logo": "https://www.lyngsat-logo.com/logo/tv/mm/macau_lotus_tv_mo.png",
-        "stream": "https://cdn1.skygo.mn/live/disk1/Lotus/HLS-FTA/Lotus.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
