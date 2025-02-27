@@ -6,6 +6,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8",
         "headers": {
+            "Referer": "https://rtp.pt/",
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
     },
@@ -16,6 +17,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8",
         "headers": {
+            "Referer": "https://rtp.pt/",
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
     },
@@ -34,7 +36,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNy8yMDI1IDQ6NzozMyBQTSZoYXNoX3ZhbHVlPVdMTU54Q0NwNXpkb2lPV2NjV29Yc0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xNTVjMWVhNy04YjVmLTRhMGMtYjliOS1hYTUwZWRhNDY3MGU=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNy8yMDI1IDY6ODoxNCBQTSZoYXNoX3ZhbHVlPVlwZStUZXQ5NWtNcmZYZDVBZTZRVFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zNzJmOTRkYy02ZDljLTRhYzYtYTZiMS00NmY2NGY2NTI0ZDM=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -46,6 +48,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8",
         "headers": {
+            "Referer": "https://rtp.pt/",
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
     },
@@ -65,7 +68,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNy8yMDI1IDQ6NzozNCBQTSZoYXNoX3ZhbHVlPVRvMGoyYzZDaXFxZmtmZUVJckRUZ2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zNGRiOTAyYS1kNTY1LTQ4ZWUtYWQxNS1lNDU0OGE3ZWZiZTE=/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNy8yMDI1IDY6ODoxNSBQTSZoYXNoX3ZhbHVlPUwwZWpMb3BWZWczWjZLZnhRWXNKblE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1iYWY0M2U3Ni01YzYzLTRhNTctOTdmZC1mMjY2OTdiMmIyMTU=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -87,6 +90,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Mem\u00f3ria.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8",
         "headers": {
+            "Referer": "https://rtp.pt/",
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
     },
@@ -97,6 +101,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-A\u00e7ores.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8",
         "headers": {
+            "Referer": "https://rtp.pt/",
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
     },
@@ -107,6 +112,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8",
         "headers": {
+            "Referer": "https://rtp.pt/",
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
     },
@@ -117,6 +123,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-\u00c1frica.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8",
         "headers": {
+            "Referer": "https://rtp.pt/",
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
     },
@@ -127,6 +134,7 @@
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8",
         "headers": {
+            "Referer": "https://rtp.pt/",
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
     },
@@ -135,7 +143,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNy8yMDI1IDQ6NzozNCBQTSZoYXNoX3ZhbHVlPStNbEQ0bGcxUG1iS1ZGN1duZzdxamc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD04MzU2Zjk2ZC0xNDYyLTQxYzItYTNiZS0yN2E1YjcwMzE2MjQ=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNy8yMDI1IDY6ODoxNSBQTSZoYXNoX3ZhbHVlPTVJcGtmNldMU3hDNU96aEp0TFlqRUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1iOWI1ZTIyNS1mNGJhLTQ2MDEtYTg5ZS0xOTA1ZjQ1OTBlNGI=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
