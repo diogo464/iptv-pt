@@ -4,7 +4,27 @@
         "name": "RTP 1",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
+        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RTP1.pt",
+        "name": "RTP 1",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RTP2.pt",
+        "name": "RTP 2",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
+        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -34,7 +54,17 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yLzIwMjUgMjo1OjQzIFBNJmhhc2hfdmFsdWU9MnBJUllkem9SZFhURDRXLzRPUGxrZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTZhMGJmZTJiLThkMTQtNDc5NC05OGQzLTEwYTI3YzNjN2UzYQ==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yLzIwMjUgNDo1OjUwIFBNJmhhc2hfdmFsdWU9RldGSVFibFA2TlR4SUdQWkJaeCtrUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWMwYzRhNDQ4LThkMDUtNDkwNi1iNDQwLTc5YTM0MGFlOGE2MQ==/",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RTP3.pt",
+        "name": "RTP 3",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",
+        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +95,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yLzIwMjUgMjo1OjQ0IFBNJmhhc2hfdmFsdWU9Ujd3aFNtd2RhQ1RrU3hLU0dXbEh4Zz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWRhY2JlZDY4LTcyYjctNDE4Zi04YmMxLTY1NzBlYzUzOWI4OA==/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yLzIwMjUgNDo1OjUxIFBNJmhhc2hfdmFsdWU9b2dnYW1rOEVONkVkSTlaRU5NK3lOdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTkwZDYzNDRjLTUwNjItNGFjZi05ZWYwLWQ5Zjg2NjY4MzgwZg==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -85,7 +115,27 @@
         "name": "RTP Mem\u00f3ria",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Mem\u00f3ria.png",
+        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RTPMemoria.pt",
+        "name": "RTP Mem\u00f3ria",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Mem\u00f3ria.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RTPAcores.pt",
+        "name": "RTP A\u00e7ores",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-A\u00e7ores.png",
+        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpacoresHD.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -105,7 +155,27 @@
         "name": "RTP Madeira",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",
+        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RTPMadeira.pt",
+        "name": "RTP Madeira",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RTPAfrica.pt",
+        "name": "RTP \u00c1frica",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-\u00c1frica.png",
+        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -125,6 +195,16 @@
         "name": "RTP Internacional",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",
+        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RTPInternacional.pt",
+        "name": "RTP Internacional",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",
         "stream": "https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
@@ -135,7 +215,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yLzIwMjUgMjo1OjQ1IFBNJmhhc2hfdmFsdWU9WVJqYzF2RzUzWFpTY3dyOXZBYTFzQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWQyZTQwZGUxLTNiM2QtNDUyZi05M2FkLTU1YmQ4MDhkMDZiMA==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yLzIwMjUgNDo1OjUyIFBNJmhhc2hfdmFsdWU9RkZXSmtNNUFoejA0LzN0cTBvazBNQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTY1MGRjOTM1LWUwMGYtNGUxYy04MzM3LTQ2YWY3ZDI4NmY0Nw==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -237,7 +317,7 @@
         "name": "Porto Canal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",
-        "stream": "https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8",
+        "stream": "https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -397,7 +477,7 @@
         "name": "TVM",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVM.png",
-        "stream": "http://online.tvm.co.mz:1935/live/smil:Channel1.smil/playlist.m3u8",
+        "stream": "http://online.tvm.co.mz:1935/live/Channel1.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -407,7 +487,7 @@
         "name": "TVM Internacional",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVMI.png",
-        "stream": "http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8",
+        "stream": "http://online.tvm.co.mz:1935/live/Channel2.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -677,7 +757,7 @@
         "name": "Arirang TV",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Arirang_TV.png",
-        "stream": "https://amdlive-ch01-g-ctnd-com.akamaized.net/arirang_1gch/smil:arirang_1gch.smil/playlist.m3u8",
+        "stream": "https://amdlive-ch01-g-ctnd-com.akamaized.net/arirang_1gch/arirang_1gch.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -994,6 +1074,26 @@
         }
     },
     {
+        "id": "AnimaxAsia.sg",
+        "name": "Animax",
+        "country": "PT",
+        "logo": "https://i.ibb.co/zsDGJDK/trtrtrt.jpg",
+        "stream": "https://tglmp01.akamaized.net/out/v1/de55fad9216e4fe7ad8d2eed456ba1ec/manifest.mpd",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "oktolidays.sg",
+        "name": "meWATCH oktolidays",
+        "country": "PT",
+        "logo": "https://i.imgur.com/Dt0kA7e.png",
+        "stream": "https://tglmp03.akamaized.net/out/v1/be732843b7d24bada23e13810282e55f/manifest.mpd",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
         "id": "RadioSines.pt",
         "name": "R\u00e1dio Sines",
         "country": "PT",
@@ -1148,7 +1248,7 @@
         "name": "Dubai Sports",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Sports.png",
-        "stream": "https://dmitnthfrta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8",
+        "stream": "https://dmitnthfrta.cdn.mgmlcdn.com/dubaisports/dubaisports.stream.smil/chunklist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1158,7 +1258,7 @@
         "name": "Dubai Sports 2",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Sports-2.png",
-        "stream": "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8",
+        "stream": "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/dubaisportshd.smil/index.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1168,7 +1268,7 @@
         "name": "Dubai Sports 3",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Sports-3.png",
-        "stream": "http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8",
+        "stream": "http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/dubaisportshd5.smil/index.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1278,7 +1378,7 @@
         "name": "Kuriakos TV",
         "country": "PT",
         "logo": "http://www.kuriakos-tv.com/img/logo.png",
-        "stream": "https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8",
+        "stream": "https://w1.manasat.com/ktv/ktv.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1288,7 +1388,7 @@
         "name": "Kuriakos Cine",
         "country": "PT",
         "logo": "https://kuriakos-cine.com/wp-content/uploads/2022/11/Logo_cine.png",
-        "stream": "https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8",
+        "stream": "https://w2.manasat.com/kcine/kcine.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1298,7 +1398,7 @@
         "name": "Kuriakos Kids",
         "country": "PT",
         "logo": "https://kuriakos-kids.com/wp-content/uploads/2023/06/KuriakosKids_curvas.jpg",
-        "stream": "https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8",
+        "stream": "https://w2.manasat.com/kkids/kkids.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1308,7 +1408,7 @@
         "name": "Kuriakos Music",
         "country": "PT",
         "logo": "https://kuriakosmusic.com/wp-content/uploads/2022/11/263x196_v1.png",
-        "stream": "https://w2.manasat.com/kmusic/smil:kmusic.smil/playlist.m3u8",
+        "stream": "https://w2.manasat.com/kmusic/kmusic.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
