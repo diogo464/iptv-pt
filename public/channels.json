@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMC8yMDI1IDg6Nzo2IFBNJmhhc2hfdmFsdWU9S1dWeWI5cVc3M0ZpNElCN1RzUEt2dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTM3Y2Q2ZDhjLTRmYzktNDY1NS1iNmVlLWY1N2RkZDE2ODI5NA==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMC8yMDI1IDEwOjU6NTAgUE0maGFzaF92YWx1ZT13cnRzYkxEK3h3bU05ZGQ5RmFSZllBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjIwNDUwM2UtYjE5MS00MWMxLWIwYTctZGY3NjZkN2NlZTQ1/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMC8yMDI1IDg6Nzo2IFBNJmhhc2hfdmFsdWU9b0kyQ0wvTjlGRCtlVDBGL2V0TFk2dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWQ4M2E1MzliLWFmYjQtNGE1Yi05ODYwLWI0ZmYwZjFiNzAzMg==/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMC8yMDI1IDEwOjU6NTAgUE0maGFzaF92YWx1ZT1kYkg4RkN1Kyt3eUJHV29UNW1jdEdnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NWNjM2FiMjYtYmRmMS00NTg4LWJhNTEtMDZkOGY4M2IxNGU4/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMC8yMDI1IDg6Nzo4IFBNJmhhc2hfdmFsdWU9SThXbE5TUnQyRTdGaW10OWtjZmpDdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTIxOWIwNTEzLTQ0ODMtNGNjOC05NDQ2LTM4MWUyZTI3YTdhOA==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMC8yMDI1IDEwOjU6NTEgUE0maGFzaF92YWx1ZT1UN0prMFpEZ1pqb0N3aCtoMkQ0Rm5BPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MWQyNDllNzgtMTJjOS00MTU0LTljYWYtZjc5YjlkNWZmYzY0/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -214,7 +214,7 @@
     },
     {
         "id": "RTP1.pt",
-        "name": "RTP 1 (App - Clearkey - Manifest)",
+        "name": "RTP 1 (App)",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
         "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd",
@@ -224,77 +224,17 @@
     },
     {
         "id": "RTP1.pt",
-        "name": "RTP 1 (App - Clearkey - Playlist)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
-        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean1HD.smil/playlist.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP1.pt",
-        "name": "RTP 1 (App - Widevine - Manifest)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
-        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP1.pt",
-        "name": "RTP 1 (App - Widevine - Playlist)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
-        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean1HD.smil/playlist.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP1.pt",
-        "name": "RTP 1 (Site - Clearkey - Manifest)",
+        "name": "RTP 1 (Site)",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
         "stream": "http://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP1.pt",
-        "name": "RTP 1 (Site - Clearkey - Playlist)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
-        "stream": "http://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/playlist.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP1.pt",
-        "name": "RTP 1 (Site - Widevine - Manifest)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
-        "stream": "http://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP1.pt",
-        "name": "RTP 1 (Site - Widevine - Playlist)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
-        "stream": "http://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
     },
     {
         "id": "RTP2.pt",
-        "name": "RTP 2 (App - Clearkey - Manifest)",
+        "name": "RTP 2 (App)",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
         "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd",
@@ -304,70 +244,10 @@
     },
     {
         "id": "RTP2.pt",
-        "name": "RTP 2 (App - Clearkey - Playlist)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
-        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/playlist.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP2.pt",
-        "name": "RTP 2 (App - Widevine - Manifest)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
-        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP2.pt",
-        "name": "RTP 2 (App - Widevine - Playlist)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
-        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/playlist.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP2.pt",
-        "name": "RTP 2 (Site - Clearkey - Playlist)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
-        "stream": "http://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/playlist.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP2.pt",
-        "name": "RTP 2 (Site - Clearkey - Manifest)",
+        "name": "RTP 2 (Site)",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
         "stream": "http://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP2.pt",
-        "name": "RTP 2 (Site - Widevine - Manifest)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
-        "stream": "http://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "RTP2.pt",
-        "name": "RTP 2 (Site - Widevine - Playlist)",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
-        "stream": "http://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
