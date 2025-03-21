@@ -4,7 +4,7 @@
         "name": "RTP 1",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
-        "stream": "http://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd",
+        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -14,7 +14,7 @@
         "name": "RTP 2",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
-        "stream": "http://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd",
+        "stream": "http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMS8yMDI1IDI6NjoxMiBQTSZoYXNoX3ZhbHVlPTNZZithMXY5Z0wwUW5obDhBZzh2bHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xYjk0ODhhZi03ZDY2LTQ1M2UtOWNjOC1mODdkMTVjNzUxMjQ=/",
+        "stream": "https://github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/TVI.m3u",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMS8yMDI1IDI6NjoxMiBQTSZoYXNoX3ZhbHVlPVBXSWVabUJhd2VPTXUvdm84bmFHeGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01MzQ5MjY0Zi02ZTZhLTQ5NzUtYWFkMi02NmY3NmZmZTY3N2Q=/",
+        "stream": "https://github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/CNN_Portugal.m3u",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMS8yMDI1IDI6NjoxMyBQTSZoYXNoX3ZhbHVlPXpDNlJyaUNQL3hCd2d4WUxpSzk2Smc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wMzQxYzkzNy0zZmUwLTRkODItODYxNi0zZWY3OWI5YmYzM2Y=/",
+        "stream": "https://github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/TVI_Internacional.m3u",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
