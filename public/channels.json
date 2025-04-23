@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDEwOjY6MTAgUE0maGFzaF92YWx1ZT0wVUpmclhGSEpiY0ZWOGZFWUttcVhRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YWZlNWYzZjItNmNmOC00OTkwLTg1NmQtNmY0NWVlM2JlZWMw/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMy8yMDI1IDEyOjI5OjggQU0maGFzaF92YWx1ZT1IMmhzTlFYK1h5UGZoRlc3d3hiVzVRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZjZlYmJkZGUtYmYzNi00ZmZiLWFiNWItN2MyMjk2MWVkNTAw/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDEwOjY6MTEgUE0maGFzaF92YWx1ZT1VRktYT2tTNVhWa0NNeEdYSTFjYUN3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Y2JlYWYxZWItNGVjNC00NzU2LThiNDYtZWQ0ODJiM2ExYzdh/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMy8yMDI1IDEyOjI5OjggQU0maGFzaF92YWx1ZT0xck9FOUxJeW1uQ2NURWQreTJ6anhnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MmJjNWI4ZTYtMGEzMi00NWYzLTg4ZTYtOTIxMzE5OGNkMzJl/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMi8yMDI1IDEwOjY6MTIgUE0maGFzaF92YWx1ZT1CQkxTU3lCMjVnS0c3amZLQVRlS21BPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NTAzY2ZhNTUtN2VlOC00ZDNkLWFhMTgtN2M2NmZlMDAzMWI3/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yMy8yMDI1IDEyOjI5OjkgQU0maGFzaF92YWx1ZT1hSEh5UUZ3Q2tTa0FHcTNKODhWeTF3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDEyZDUzMWEtMmYwMS00MGRkLThmODItZTdkODkyMmM5ODRh/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1044,26 +1044,6 @@
         }
     },
     {
-        "id": "RetroCartoon.br",
-        "name": "Retr\u00f4 Cartoon",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Retro-TV.png",
-        "stream": "https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "AnimeTV.br",
-        "name": "Anime TV",
-        "country": "PT",
-        "logo": "https://i.imgur.com/CFSSTID.png",
-        "stream": "https://stmv1.srvif.com/animetv/animetv/playlist.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
         "id": "Geekdot.br",
         "name": "Geekdot",
         "country": "PT",
@@ -1118,7 +1098,7 @@
         "name": "R\u00e1dio Sines",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/R\u00e1dio-Sines.png",
-        "stream": "https://streamer-a01.videos.sapo.pt/live/radiosinesdireto/index.m3u8",
+        "stream": "https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
