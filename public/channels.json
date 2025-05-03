@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8zLzIwMjUgODo2OjQzIFBNJmhhc2hfdmFsdWU9L2wrODV0eFlmb3hnUktYYUZudE5EQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWVmZjQwOWM5LWQ4ZDYtNDU2YS1hM2FiLWFhYjAxM2ExNThmZQ==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8zLzIwMjUgMTA6NTo1NiBQTSZoYXNoX3ZhbHVlPWxIUWZ2MjluUFJ2QVJSMk9vcXVhMUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wODUwYTk0My1iNDUzLTRmMTItOGJhOC0wMWEwZGUwOGY4NmI=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8zLzIwMjUgODo2OjQ0IFBNJmhhc2hfdmFsdWU9SzFVWGhMeEp1YmR1T1dUVDh4QU0vZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTIxZjllNThkLWQ5OWYtNGUxMy05MmRhLTk1ZTllZGQxYzY3NQ==/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8zLzIwMjUgMTA6NTo1NyBQTSZoYXNoX3ZhbHVlPXZlSkJNY0lrejVGQ2IxanRMOURjS0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD05M2M0MjE0NC03MzA0LTQ4NGEtOWEyOS1mMWZlZmE2MjNiNmI=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8zLzIwMjUgODo2OjQ0IFBNJmhhc2hfdmFsdWU9QTVxQXJTcmVINk1vZjg0MDZFYXoxdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTUxYWY5MzVkLTZmODMtNDAxNi04ZGExLWYzNTVlMDFkNjMyMA==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8zLzIwMjUgMTA6NTo1OCBQTSZoYXNoX3ZhbHVlPUxJYzVuc0h6OEE4QkZNUWtDd3dqV2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1kYmQyMjQ0NC02MWUzLTRhNGMtYmFmNS0yMjJjZjBkYTQ3YzE=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -617,7 +617,7 @@
         "name": "France 24 English",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/France-24.png",
-        "stream": "https://ythls.armelin.one/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg.m3u8",
+        "stream": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -627,7 +627,7 @@
         "name": "France 24 Espa\u00f1ol",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/France-24.png",
-        "stream": "https://youtube.com/watch?v=XDJPzMznAjU",
+        "stream": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -637,7 +637,7 @@
         "name": "France 24 Fran\u00e7ais",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/France-24.png",
-        "stream": "https://youtube.com/watch?v=gxG3pdKvlIs",
+        "stream": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -647,7 +647,7 @@
         "name": "France 24 Arabic",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/France-24.png",
-        "stream": "https://youtube.com/watch?v=8BZpOolYLUA",
+        "stream": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -657,7 +657,7 @@
         "name": "Fox Now",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/LiveNOW_from_Fox.webp",
-        "stream": "https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8",
+        "stream": "https://d3tlzddkbbpp5n.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-9uzjfw11uj9nn/LiveNOW_from_FOX.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
