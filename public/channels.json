@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS80LzIwMjUgODo4OjAgQU0maGFzaF92YWx1ZT1hejQ4QS9xS0hzZnE2L1poU3pzQkRRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9OGQ0YzU0NzYtY2NkNi00OTc2LTliYmQtY2UwOGE5MzM0NTJm/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS80LzIwMjUgMTA6NjoxMyBBTSZoYXNoX3ZhbHVlPThXdkwwN1BrNTdQbWozUFAvM2luaVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1kN2NiYzI5My05Y2NiLTRiZWYtYjBjMC01ZDNlYTJkYzc3NmY=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS80LzIwMjUgODo4OjEgQU0maGFzaF92YWx1ZT16ejNCN1JEU1FkQnRzYldpVThmcC9BPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YWEzYzQzYjgtNjgxYi00MGEzLTk4NDctMDEyN2Q5MzllZGFm/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS80LzIwMjUgMTA6NjoxNCBBTSZoYXNoX3ZhbHVlPVZxSHdzV1R1alAzU1Axay8rWXo0d1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xMTgwNDIxOS1jMWExLTQ4M2ItYjM0Mi0yNzA0MTY3MDdkMmQ=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS80LzIwMjUgODo4OjEgQU0maGFzaF92YWx1ZT0ySTdCbC9EdXFHaFcveFo2R0FCVjJRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YmNlYjdjYWUtZDM0MC00Zjk4LThiMmEtODNlNDRiMGIwOWE1/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS80LzIwMjUgMTA6NjoxNSBBTSZoYXNoX3ZhbHVlPW5tMmNTcGd2NFlvYUlvYldlY3U5NEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1jYmJjZDhhMC1jOTVlLTRjZjEtYTIxNS1iYmEyNDAwYWViMTg=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -398,6 +398,16 @@
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Love-Nature-TV.png",
         "stream": "https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "ItalianFishingTV.it",
+        "name": "Italian Fishing TV",
+        "country": "PT",
+        "logo": "https://i.imgur.com/qrn6tUO.png",
+        "stream": "https://fms.premio.link/fishingtv/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
