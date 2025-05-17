@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8xNy8yMDI1IDQ6Nzo1MSBBTSZoYXNoX3ZhbHVlPTJUSTN3Qjl3S2UvN0VJWXhyVjlJL2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1iNzc0NGFkYi05ODMyLTRiMDEtYWRkNC1jOGJlZTdjMjZhYzg=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8xNy8yMDI1IDY6ODoyNiBBTSZoYXNoX3ZhbHVlPWQvT29QelJBRUFPTGRZbStaSHcrT1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1kNjUxZjQ2MS0zOWFiLTRjZmQtODMzYi1hNGE0NzRhYzE0MmM=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8xNy8yMDI1IDQ6Nzo1MiBBTSZoYXNoX3ZhbHVlPS8yeEhhYi9FYlhVb3NHb2I1UEkvREE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD00M2IyZWRiOC0xMjQ2LTQ4NTMtODE5Yy1mOWZmMWNjNTQ0MTU=/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8xNy8yMDI1IDY6ODoyNyBBTSZoYXNoX3ZhbHVlPWpvNFF0WkhwMXNQaUdBMEExZnplR1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD05OTNkMzJlMi1jNTc2LTQzOGUtOWNiNi1iZTgyN2UwMjIwMWI=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8xNy8yMDI1IDQ6Nzo1MiBBTSZoYXNoX3ZhbHVlPUV1cFdXQXo5TFd4U0xnSzI2N00zcFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wODZmODEwNi00Y2EzLTRkNzItYWE0Zi1mNjA4NTkxZGQxZjM=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8xNy8yMDI1IDY6ODoyOCBBTSZoYXNoX3ZhbHVlPWJwWnFWTzdiN0FNbnRHSW15L01qV0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1mOThlMWFiYi00MWIwLTQ4ZjAtYmE1OS0zNzA3ZjNjYjIzZTg=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
