@@ -14,7 +14,17 @@
         "name": "RTP 2",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
-        "stream": "https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8",
+        "stream": "https://streaming-live-app.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "RTP2.pt",
+        "name": "RTP 2",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
+        "stream": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -34,7 +44,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMy8yMDI1IDEwOjc6MjMgQU0maGFzaF92YWx1ZT1kZTdTM0F6VGlTWDNOQU1WK1BzdHZnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9OWY5ZjFkMGItNDFhMy00MzllLTlhYTYtMGQ0OGY1YWU4YzY5/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMy8yMDI1IDEyOjExOjI1IFBNJmhhc2hfdmFsdWU9S09XTjU0WmpYclFoL2J2Q3E2VDFGZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTE0NzY5ZmQ0LTMyZDYtNDJkMy05NDg0LWRiN2FjN2Q0MTc4MQ==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +75,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMy8yMDI1IDEwOjc6MjQgQU0maGFzaF92YWx1ZT1ZRE5DKzE2ZlNEN3VMNFBGeHYrRU1nPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Nzc3MmU4ZDgtY2I3OS00YTRhLWI0M2QtZmViZDdiZGE5Y2Fj/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMy8yMDI1IDEyOjExOjI2IFBNJmhhc2hfdmFsdWU9NjVublMyM3Jmb1RKL2lnOUFMK1JGQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTM0NDEyMzQ1LTU1ZjktNDJjNS05M2I3LTI0MzE1NjgxODMyOA==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +155,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMy8yMDI1IDEwOjc6MjUgQU0maGFzaF92YWx1ZT1XRmFHRnNWT1VTaWVCRmpmRTFXZmR3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZTE2NDZiZDgtMDliMS00NTc0LWIzMTctZWUwMDJhZDQ1MjU1/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NS8yMy8yMDI1IDEyOjExOjI2IFBNJmhhc2hfdmFsdWU9eloxNi9OMTlmRFE4SmlCWllKWHNJUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTk0ZTdhOGE4LTU4MTgtNGNlMS1hYjJhLTc0YjA5NDRjZmZhOA==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -438,6 +448,46 @@
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
         "stream": "https://rakuten-euronews-9-gb.lg.wurl.tv/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "EuronewsPortuguese.fr",
+        "name": "Euronews ES",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
+        "stream": "https://rakuten-euronews-12-es.lg.wurl.tv/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "EuronewsPortuguese.fr",
+        "name": "Euronews IT",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
+        "stream": "https://rakuten-euronews-11-it.lg.wurl.tv/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "EuronewsPortuguese.fr",
+        "name": "Euronews FR",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
+        "stream": "https://rakuten-euronews-2-fr.lg.wurl.tv/playlist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "EuronewsPortuguese.fr",
+        "name": "Euronews DE",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
+        "stream": "https://rakuten-euronews-13-de.lg.wurl.tv/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
