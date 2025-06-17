@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDI1IDY6OTo0IFBNJmhhc2hfdmFsdWU9TGg2bXRqVUZZUnBQY1JoaFJ0WTVEUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTliMWU2ZDMzLTViYTgtNDk2ZS05ODIxLTY5Nzc1ODQ0MTYyOQ==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDI1IDY6OTo1IFBNJmhhc2hfdmFsdWU9ZEJxMnRjbVlsMWtwQW5uVzlBNG9UZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTNkNTMyYTFmLWQwNjYtNGNkNC1iZGMzLWI1NmJiYzViMmZiYw==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDI1IDY6OTo1IFBNJmhhc2hfdmFsdWU9RFI1MzJIMTRVVi9DdXVWNUYxak1mdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY5ZWJmMGU5LTU2MmYtNGNlNy1iYmM5LTQ1MTMxZTM2MDg2NA==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
