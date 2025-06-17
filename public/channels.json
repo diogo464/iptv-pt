@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDI1IDEyOjEyOjE5IFBNJmhhc2hfdmFsdWU9VmphU1Z3OWpIYnFDdEN6WERuL2Z3dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWE3MzQ2NjUzLWFlZjUtNGYxYi1hZjRhLWE4M2ZlMGUwN2Q3NQ==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDI1IDEyOjEyOjIwIFBNJmhhc2hfdmFsdWU9ejI1NFhEVkRqUUpVTW80b1M1ZHR2QT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTIzZDVjNTc2LTA0MTAtNDdlMy1iZDk1LWE3MmFlOTM0NDUwNA==/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDI1IDEyOjEyOjIwIFBNJmhhc2hfdmFsdWU9MmZRa3pEdTFRckJGeGFLMHlSTXpodz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY2NTU3ZTAzLWY3MjAtNDU3YS04YjFhLTRiZDMxYmRhMzQ1MQ==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -847,7 +847,7 @@
         "name": "TVE 24h",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVE-24h.png",
-        "stream": "https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main.m3u8",
+        "stream": "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -857,7 +857,7 @@
         "name": "La 1",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/La1.png",
-        "stream": "https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main.m3u8",
+        "stream": "https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -867,7 +867,7 @@
         "name": "La 2",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/La2.png",
-        "stream": "https://rtvelivestream-clnx.rtve.es/rtvesec/la2/la2_main.m3u8",
+        "stream": "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -887,7 +887,7 @@
         "name": "TeleMadrid",
         "country": "PT",
         "logo": null,
-        "stream": "https://telemadrid-23.secure2.footprint.net/master.m3u8",
+        "stream": "https://new-international-23-secure2.akamaized.net/index.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -967,7 +967,7 @@
         "name": "Canal Extremadura",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Canal-Extremadura.png",
-        "stream": "https://cdnapisec.kaltura.com/p/5581662/sp/558166200/playManifest/entryId/1_1u7ssdy3/protocol/https/format/applehttp/flavorIds/1_8xbndriw/a.m3u8",
+        "stream": "https://canalextremadura-live.flumotion.cloud/canalextremadura/live_all/playlist_dvr.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
