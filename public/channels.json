@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI1IDEwOjc6MyBQTSZoYXNoX3ZhbHVlPTdpbkdhRzBkZlNqMW5DQXVsVXEyM0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD04MmMwNTkzNy0yZmM4LTQ0NTAtOGNjZi0yNjE1Njg4N2M4YTc=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOS8yMDI1IDEyOjM2OjI0IEFNJmhhc2hfdmFsdWU9ZlVIT203WHRxd1dHU0hiZGc3WU1OZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWRhZDNiMzRmLTBiYzktNDE5NC1hNGFiLTEyN2EwNWYzYWI1Nw==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI1IDEwOjc6NCBQTSZoYXNoX3ZhbHVlPXMrTUJlcHA4YVk5RlpWeU1JSWlxVnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1jMjZlZmExMi1jZWI4LTQyNjMtYWVlOS02Njk0NzU2OTk0NWU=/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOS8yMDI1IDEyOjM2OjI1IEFNJmhhc2hfdmFsdWU9Tks3cnpLZDFZd0d2MFBQL1hJYmh1QT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTVmZWU0ZWFiLTZhYzAtNGU5My1hYzU4LTI0MjlhMmQzN2I1Mw==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOC8yMDI1IDEwOjc6NSBQTSZoYXNoX3ZhbHVlPWJWQ21iSlA3VFhFa3RHOTZpeEN3Y2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wZWM0YWM4YS0xZmNlLTRlNzgtYjkzMi0yMTFlYjNmZmUxMjY=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOS8yMDI1IDEyOjM2OjI1IEFNJmhhc2hfdmFsdWU9K2IrMDgvVTNxUjVGVXRoYUJPOFljQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWE2MmYzYzc2LTAzM2QtNDg4Ni05OTYxLWY4OTEzNGU2YWM3NA==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -217,7 +217,7 @@
         "name": "Euronews PT",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
-        "stream": "https://euronews-live-por-pt.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/7392d4f0-7e24-4dbe-8482-f165e712eeed/5.m3u8",
+        "stream": "https://38cf202f635c4e6d9a9ecd1dc805222a.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/aa7d84c5-ed1b-4706-aa89-11c525faf07d/5.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -457,7 +457,7 @@
         "name": "Euronews EN",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
-        "stream": "https://rakuten-euronews-9-gb.lg.wurl.tv/playlist.m3u8",
+        "stream": "https://www.youtube.com/watch?v=pykpO5kQJ98",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -467,7 +467,7 @@
         "name": "Euronews ES",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
-        "stream": "https://rakuten-euronews-12-es.lg.wurl.tv/playlist.m3u8",
+        "stream": "https://www.youtube.com/live/O9mOtdZ-nSk?si=EmVYK4auVB3jDSLM",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -477,7 +477,7 @@
         "name": "Euronews IT",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
-        "stream": "https://rakuten-euronews-11-it.lg.wurl.tv/playlist.m3u8",
+        "stream": "https://www.youtube.com/live/pUcmpyynASM?si=BRmdOh1Fc33_VgsI",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -487,7 +487,7 @@
         "name": "Euronews FR",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
-        "stream": "https://rakuten-euronews-2-fr.lg.wurl.tv/playlist.m3u8",
+        "stream": "https://www.youtube.com/live/NiRIbKwAejk?si=kxojjO5JljrbDDzz",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -497,7 +497,7 @@
         "name": "Euronews DE",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",
-        "stream": "https://rakuten-euronews-13-de.lg.wurl.tv/playlist.m3u8",
+        "stream": "https://www.youtube.com/live/CQ3KsEbsYHs?si=uWcGC4Yzd0CIuK29",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
