@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOS8yMDI1IDEwOjc6NyBQTSZoYXNoX3ZhbHVlPVI5WFhBN0M3SU9RQXV2cERudmJLa3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zMzZjNTE1Yi1iYjkyLTRiYjktYTRhMS1hYzg4YzQ1MGRjOTc=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8zMC8yMDI1IDEyOjMzOjQxIEFNJmhhc2hfdmFsdWU9aFplWnRqSTlxejBDY1dYSjEzczh1dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTUxYmI1Mjc5LWUwMjQtNDBhOS1hNTcyLTNhYjdhM2U0OTkwYg==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOS8yMDI1IDEwOjc6OCBQTSZoYXNoX3ZhbHVlPXYxb1BpWW9CNmwvUUh5NGF4dlgrdEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD02ZDIxNzBmNC1hOWMxLTQ3MTQtYjBmZC0zNzI1ODBiMTM4NWI=/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8zMC8yMDI1IDEyOjMzOjQyIEFNJmhhc2hfdmFsdWU9TjlrOFFyR2tFWEM2ZlErcFk0d1Z4QT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTM0NzcwNjgzLTlmNzctNGU0MC1iNWRiLTIzNzE5ODQxYjI4OA==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOS8yMDI1IDEwOjc6OSBQTSZoYXNoX3ZhbHVlPTE5d2xUR0xQYkFoTDZPU3dJK0NWVHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD05ZDlmOTc2Yy0zYmRiLTRlYjEtODg5My03ZDM0YWE0MTYzYjA=/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8zMC8yMDI1IDEyOjMzOjQzIEFNJmhhc2hfdmFsdWU9N09FaklMd1VZRW1NWWZyQWtsdjE1QT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWRkN2Q5ZDY2LTQ3NjAtNGMwZC1iMGU1LTg0MTdhNDhkNmViOQ==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -747,7 +747,7 @@
         "name": "Bloomberg TV Europe",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",
-        "stream": "https://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_Bloomberg-2/22e25f0b-ff48-4517-9faa-35f78c10f563/0.m3u8",
+        "stream": "https://86ebec83.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ1RWUGx1c19ITFM/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
