@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yLzIwMjUgNjo4OjQxIFBNJmhhc2hfdmFsdWU9L1oxM0RrbTVzMUFPdkoyMUhQTjRpdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTE0NWZiZGQwLTYzMTctNGFkNy05NDEyLTdkNGJhNGQ1M2Q1MA==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yLzIwMjUgODo2OjU1IFBNJmhhc2hfdmFsdWU9bTBwYVdZdFh5VlBkN1pmLzB3eS9Jdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPThhMDcyZjc5LWM5M2UtNDgwZS1hM2ViLTA1OTRjYTc3MzcwNw==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yLzIwMjUgNjo4OjQyIFBNJmhhc2hfdmFsdWU9cGlicE1jOURtalhCUHpaR3hnQUhwZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTZhOTcxNmNjLWQ1YzctNDlmOC1hNWVmLWM0MDY1OTQ2NDg1NA==/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yLzIwMjUgODo2OjU1IFBNJmhhc2hfdmFsdWU9RDU4WWpCcHhCOHE1NCtZMlIvZWZiUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWJjNmExYjJhLWM5NWYtNGE1NC1hZmIxLTYyZTJlMjc2Y2E1ZQ==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yLzIwMjUgNjo4OjQzIFBNJmhhc2hfdmFsdWU9MUNsY3dERnN4M1prODAzdnpzdUROQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWNkZGMzMjAxLTUxNmEtNGI5NS04NWQwLTI0NmRlYzRkOGRmYg==/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yLzIwMjUgODo2OjU2IFBNJmhhc2hfdmFsdWU9SzBGb0N0dHpVM1NERkcvNTJSMndNdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTQ0NmEyY2ZjLTdjZWMtNDcyNS1hNzFlLWZkMGZhNDQ0NGIzMg==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1397,7 +1397,7 @@
         "id": "KuriakosTV.pt",
         "name": "Kuriakos TV",
         "country": "PT",
-        "logo": "http://www.kuriakos-tv.com/img/logo.png",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/canal-kuriakos-tv-logo-256x256.png",
         "stream": "https://w1.manasat.com/ktv/ktv.smil/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
