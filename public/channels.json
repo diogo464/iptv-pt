@@ -34,7 +34,7 @@
         "name": "TVI",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMS8yMDI1IDEwOjY6MjkgUE0maGFzaF92YWx1ZT16Q3hCVkF4Uzd1b2F3cUFmdmtBZ1pnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NTUzNWVlY2QtOTI1YS00YWZiLThjNmEtN2Q4OTZmNTUwMTYw/",
+        "stream": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMi8yMDI1IDEyOjI5OjQ1IEFNJmhhc2hfdmFsdWU9MEJ3c2dCUk9hWTlRbHhqWFJSTnJpUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTQ0ZTdkMDJjLTI2YzItNGVlYS1hZjFiLWIxNDQzOWI0YjZjNQ==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -65,7 +65,7 @@
         "name": "CNN Portugal",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMS8yMDI1IDEwOjY6MzAgUE0maGFzaF92YWx1ZT1qWVc0S1pBSzhlTng2RlNqY3o5OExRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NjRjNTg2MzctMjdkMC00MWMzLWFmYTQtYTNkZWExYjE2ZmIy/",
+        "stream": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMi8yMDI1IDEyOjI5OjQ2IEFNJmhhc2hfdmFsdWU9dmVmNmJ1aThDZCt6eHZwc0d4dnVTdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTY0OGQ2ZmEwLThlNWItNDE4My05YWEwLTMyNjg3ZDgyZTdlZQ==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -145,7 +145,7 @@
         "name": "TVI Internacional",
         "country": "PT",
         "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMS8yMDI1IDEwOjY6MzAgUE0maGFzaF92YWx1ZT1aeTg3a0xsV3hXWVNTWlV0bWkwcXR3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZjUzZmM4YmYtMWUyZi00ZWIyLTg2ODYtYzE3M2JiMDJiOWJl/",
+        "stream": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMi8yMDI1IDEyOjI5OjQ3IEFNJmhhc2hfdmFsdWU9UWtLUERtMk1zSm9OZWovaVF0bkxZQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY5N2M0OWU2LTJiNTAtNGI1OS1iMmM5LWZkMjEwNGIwNzFlNA==/",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -333,16 +333,6 @@
         }
     },
     {
-        "id": "LoveNature4K.ca",
-        "name": "Love Nature TV",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Love-Nature-TV.png",
-        "stream": "https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
         "id": "RealWild.us",
         "name": "Real Wild",
         "country": "PT",
@@ -358,16 +348,6 @@
         "country": "PT",
         "logo": "https://i.imgur.com/qrn6tUO.png",
         "stream": "https://fms.premio.link/fishingtv/playlist.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "PortadosFundos.br",
-        "name": "Porta dos Fundos",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porta-dos-Fundos.jpg",
-        "stream": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f36f2346ede750007332d11/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
