@@ -753,7 +753,7 @@
     },
     {
         "id": "AfricanewsEnglish.fr",
-        "name": "Africa News",
+        "name": "Africanews",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Africa_news.png",
         "stream": "https://c3c275b999764df8a2dd55ffe2996818.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/5a098a95-cc1e-4e08-8785-65fe2ac4dda3/5.m3u8",
@@ -922,50 +922,20 @@
         }
     },
     {
-        "id": "Telemadrid.es",
-        "name": "TeleMadrid",
-        "country": "PT",
-        "logo": null,
-        "stream": "https://new-international-23-secure2.akamaized.net/index.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "TV3cat.es",
-        "name": "TV3 Catalunya",
-        "country": "PT",
-        "logo": null,
-        "stream": "https://directes-tv-int.ccma.cat/live-origin/tvi-hls/master.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "Canal324.es",
-        "name": "Canal 324",
-        "country": "PT",
-        "logo": null,
-        "stream": "https://directes-tv-int.ccma.cat/live-origin/canal324-hls/master.m3u8",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
-        "id": "CanalMalaga.es",
+        "id": "CanalMalagaRTV.es",
         "name": "Canal M\u00e1laga",
         "country": "PT",
-        "logo": null,
+        "logo": "https://do8ct5f1tsfs2.cloudfront.net/clients_logos/7246ea51ef514a518a2e5b0b3fb871a3.webp",
         "stream": "http://canalmalaga-tv-live.flumotion.com/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
     },
     {
-        "id": "AragonTV.es",
-        "name": "Arag\u00f3n TV",
+        "id": "AragonTVInternacional.es",
+        "name": "Arag\u00f3n TV Internacional",
         "country": "PT",
-        "logo": null,
+        "logo": "https://static.wikia.nocookie.net/logopedia/images/1/12/Arag%C3%B3n_Internacional.png/revision/latest/scale-to-width-down/512",
         "stream": "http://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
@@ -1053,8 +1023,8 @@
         }
     },
     {
-        "id": "RakutenTVFamilyMovies.uk",
-        "name": "Rakuten Family",
+        "id": "RakutenTVFamilyMovies.es",
+        "name": "Rakuten TV Family Movies",
         "country": "PT",
         "logo": null,
         "stream": "https://48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6213/master.m3u8",
