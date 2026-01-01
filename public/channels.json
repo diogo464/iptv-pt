@@ -1003,16 +1003,6 @@
         }
     },
     {
-        "id": "Sky24Meteo.it",
-        "name": "Sky TG24",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Sky-TG24.png",
-        "stream": "https://youtube.com/watch?v=HVB_Wx5T16g",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
         "id": "RaiNews24.it",
         "name": "Rai News 24",
         "country": "PT",
@@ -1026,7 +1016,7 @@
         "id": "RakutenTVFamilyMovies.es",
         "name": "Rakuten TV Family Movies",
         "country": "PT",
-        "logo": null,
+        "logo": "https://i.imgur.com/Meew6eX.png",
         "stream": "https://48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6213/master.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
@@ -1036,7 +1026,7 @@
         "id": "NickClassico.br",
         "name": "Nick Cl\u00e1ssico",
         "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Nick-Cl\u00e1ssico.jpg",
+        "logo": "https://i.imgur.com/Crip6wT.png",
         "stream": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f12151794c1800007a8ae63/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
@@ -1184,10 +1174,10 @@
     },
     {
         "id": "KpopTVPlay.br",
-        "name": "Sexy KPOP TV",
+        "name": "KpopTV Play",
         "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Sexy-KPOP-TV.png",
-        "stream": "https://ssh101-fl.bozztv.com/ssh101/kpoptv/playlist.m3u8",
+        "logo": "https://i.imgur.com/Tf0vweF.png",
+        "stream": "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1217,7 +1207,7 @@
         "name": "California Music Channel",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CMC.png",
-        "stream": "https://cmc-ono.amagi.tv/amRdirect/device[did]=%5BAD_IDFA%5B&us_privacy=%7BUS_PRIVACY%7D&coppa=%7BCOPPA%7D&uid=1fpn9sr15-vpg2-1jg-4kgx-p57ss8l4h2/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/1920x1080_5711200/index.m3u8",
+        "stream": "https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1237,7 +1227,7 @@
         "name": "Motorvision",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Motorvision-TV.png",
-        "stream": "https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/152ce4a1-aa15-4761-ae5b-d4f13449c1b9/4.m3u8",
+        "stream": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1247,7 +1237,7 @@
         "name": "Abu Dhabi Sports 1",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Abu-Dhabi-Sports-1.png",
-        "stream": "https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/variant.m3u8",
+        "stream": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1257,7 +1247,7 @@
         "name": "Abu Dhabi Sports 2",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Abu-Dhabi-Sports-2.png",
-        "stream": "https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/variant.m3u8",
+        "stream": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1267,7 +1257,7 @@
         "name": "Dubai Sports",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Sports.png",
-        "stream": "https://dmitnthfrta.cdn.mgmlcdn.com/dubaisports/dubaisports.stream.smil/chunklist.m3u8",
+        "stream": "https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
@@ -1293,6 +1283,36 @@
         }
     },
     {
+        "id": "DubaiRacing.ae",
+        "name": "Dubai Racing",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Racing.png",
+        "stream": "https://dmisdracta.cdn.mgmlcdn.com/events/smil:events.stream.smil/chunklist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "DubaiRacing2.ae",
+        "name": "Dubai Racing 2",
+        "country": "PT",
+        "logo": "https://i.imgur.com/H2TTn7t.png",
+        "stream": "https://dmithrvllta.cdn.mgmlcdn.com/dubairacing/smil:dubairacing.smil/chunklist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "DubaiRacing3.ae",
+        "name": "Dubai Racing 3",
+        "country": "PT",
+        "logo": "https://i.imgur.com/Vg4fxmc.png",
+        "stream": "https://dmithrvllta.cdn.mgmlcdn.com/dubaimubasher/smil:dubaimubasher.smil/chunklist.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
         "id": "FashionTVEurope.fr",
         "name": "Fashion TV",
         "country": "PT",
@@ -1303,21 +1323,21 @@
         }
     },
     {
-        "id": "HDFASHIONLifeStyle.ua",
-        "name": "HD Fashion & Lifestyle TV",
-        "country": "PT",
-        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/HD-Fashion-&-Lifestyle-TV.png",
-        "stream": "https://www.youtube.com/watch?v=i646uhJwP5w",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
-        }
-    },
-    {
         "id": "WorldFashionChannel.ru",
         "name": "World Fashion Channel",
         "country": "PT",
         "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/World-Fashion-Channel.jpg",
         "stream": "https://cdn.wfc.tv/cdn/stream-eng.m3u8",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        }
+    },
+    {
+        "id": "DubaiOne.ae",
+        "name": "Dubai One",
+        "country": "PT",
+        "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-One.png",
+        "stream": "https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.m3u8",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
         }
